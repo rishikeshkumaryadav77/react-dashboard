@@ -10,34 +10,3 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-classComponent => button.jsx
-
-  //object state
-  state={
-    text1: "subscribe",
-    text2:"subscribed",
-    isSubscribed: false,
-  };
-
-  subscribedHandler =() =>{
-    // console.log("button clicked")
-    this.setState({ 
-      isSubscribed:!this.state.isSubscribed
-    })
-  }
-
-  render(){
-    return (
-      <React.Fragment>
-        <button onClick={this.subscribedHandler}>
-          {this.state.isSubscribed ? this.state.text2 : this.state.text1}
-        </button>
-
-        {
-          this.state.isSubscribed ? (<h1>thank for watching</h1>) : (<h2>please subscribe for primium</h2>)
-        }
-      </React.Fragment>
-    );
-  }
