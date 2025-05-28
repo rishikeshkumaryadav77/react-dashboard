@@ -1,0 +1,34 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "This Namaskar react from rishikesh",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishikeshkumaryadav77/react-dashboard.git"
+  },
+  "keywords": [
+    "react",
+    "namaskar",
+    "react",
+    "rishikesh"
+  ],
+  "author": "Rishikesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishikeshkumaryadav77/react-dashboard/issues"
+  },
+  "homepage": "https://github.com/rishikeshkumaryadav77/react-dashboard#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "main": "App.js"
+}
